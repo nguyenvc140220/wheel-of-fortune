@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-custom-roulette/static/css/main.afc90d03.chunk.css",
-    "main.js": "/react-custom-roulette/static/js/main.fc9ab76b.chunk.js",
-    "main.js.map": "/react-custom-roulette/static/js/main.fc9ab76b.chunk.js.map",
-    "runtime-main.js": "/react-custom-roulette/static/js/runtime-main.f518e146.js",
-    "runtime-main.js.map": "/react-custom-roulette/static/js/runtime-main.f518e146.js.map",
-    "static/css/2.a4a80c75.chunk.css": "/react-custom-roulette/static/css/2.a4a80c75.chunk.css",
-    "static/js/2.f5039f5c.chunk.js": "/react-custom-roulette/static/js/2.f5039f5c.chunk.js",
-    "static/js/2.f5039f5c.chunk.js.map": "/react-custom-roulette/static/js/2.f5039f5c.chunk.js.map",
-    "index.html": "/react-custom-roulette/index.html",
-    "static/css/2.a4a80c75.chunk.css.map": "/react-custom-roulette/static/css/2.a4a80c75.chunk.css.map",
-    "static/css/main.afc90d03.chunk.css.map": "/react-custom-roulette/static/css/main.afc90d03.chunk.css.map",
-    "static/js/2.f5039f5c.chunk.js.LICENSE.txt": "/react-custom-roulette/static/js/2.f5039f5c.chunk.js.LICENSE.txt"
+    "main.css": "/wheel-of-fortune/static/css/main.a2186f3d.chunk.css",
+    "main.js": "/wheel-of-fortune/static/js/main.4ff87660.chunk.js",
+    "main.js.map": "/wheel-of-fortune/static/js/main.4ff87660.chunk.js.map",
+    "runtime-main.js": "/wheel-of-fortune/static/js/runtime-main.29908420.js",
+    "runtime-main.js.map": "/wheel-of-fortune/static/js/runtime-main.29908420.js.map",
+    "static/css/2.1fb90f1e.chunk.css": "/wheel-of-fortune/static/css/2.1fb90f1e.chunk.css",
+    "static/js/2.eee05de8.chunk.js": "/wheel-of-fortune/static/js/2.eee05de8.chunk.js",
+    "static/js/2.eee05de8.chunk.js.map": "/wheel-of-fortune/static/js/2.eee05de8.chunk.js.map",
+    "index.html": "/wheel-of-fortune/index.html",
+    "static/css/2.1fb90f1e.chunk.css.map": "/wheel-of-fortune/static/css/2.1fb90f1e.chunk.css.map",
+    "static/css/main.a2186f3d.chunk.css.map": "/wheel-of-fortune/static/css/main.a2186f3d.chunk.css.map",
+    "static/js/2.eee05de8.chunk.js.LICENSE.txt": "/wheel-of-fortune/static/js/2.eee05de8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f518e146.js",
-    "static/css/2.a4a80c75.chunk.css",
-    "static/js/2.f5039f5c.chunk.js",
-    "static/css/main.afc90d03.chunk.css",
-    "static/js/main.fc9ab76b.chunk.js"
+    "static/js/runtime-main.29908420.js",
+    "static/css/2.1fb90f1e.chunk.css",
+    "static/js/2.eee05de8.chunk.js",
+    "static/css/main.a2186f3d.chunk.css",
+    "static/js/main.4ff87660.chunk.js"
   ]
 }
