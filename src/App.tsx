@@ -23,14 +23,14 @@ let dataDefault = [
   { option: "WHEEL" },
 ];
 
-const backgroundColors = ["#282c34", "#282c34", "#282c34", "#282c34"];
-const textColors = ["#0b3351"];
-const outerBorderColor = "#eeeeee";
+const backgroundColors = ['#ff8f43', '#70bbe0', '#0b3351', '#f9dd50'];
+const textColors = ['#0b3351'];
+const outerBorderColor = '#cbf1f8';
 const outerBorderWidth = 10;
-const innerBorderColor = "#30261a";
+const innerBorderColor = '#30261a';
 const innerBorderWidth = 0;
 const innerRadius = 0;
-const radiusLineColor = "#eeeeee";
+const radiusLineColor = '#cbf1f8';
 const radiusLineWidth = 8;
 const fontFamily = "Nunito";
 const fontWeight = "bold";
@@ -192,9 +192,9 @@ const App: React.FunctionComponent<FileUploadProps> = ({
               handleResult();
             }}
           />
-          <button className={"spin-button"} onClick={handleSpinClick}>
+          <Button variant="info" className={"spin-button"} onClick={handleSpinClick}>
             SPIN
-          </button>
+          </Button>
 
           <div className="row padding-top-150 style-unset">
             <Form.Group controlId="formFile" className="mb-3 text-left style-unset col-8">
@@ -206,7 +206,7 @@ const App: React.FunctionComponent<FileUploadProps> = ({
               />
             </Form.Group>
 
-            <Button variant="outline-light" className="col-4 button-container" onClick={uploadDataImgToSpin}>Up to spin</Button>
+            <Button variant="outline-dark" className="col-4 button-container" onClick={uploadDataImgToSpin}>Up to spin</Button>
           </div>
           {list.map((item, i) => {
             // the keys are there to take care of react warning otherwise
@@ -221,7 +221,7 @@ const App: React.FunctionComponent<FileUploadProps> = ({
                     <Button
                       key={i + ":up"}
                       className="margin-right-20"
-                      variant="light" size="sm"
+                      variant="dark" size="sm"
                       onClick={(e) => handleUp(e, i)}
                     >
                       {String.fromCharCode(8593)}
@@ -231,7 +231,7 @@ const App: React.FunctionComponent<FileUploadProps> = ({
                     <Button
                       key={i + ":down"}
                       className="margin-right-20"
-                      variant="light" size="sm"
+                      variant="dark" size="sm"
                       onClick={(e) => handleDown(e, i)}
                     >
                       {String.fromCharCode(8595)}

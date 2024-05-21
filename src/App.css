@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   /* min-height: 150vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #131114;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #cbf1f8;
 }
 
 .spin-button {
@@ -84,7 +84,6 @@
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 50px;
-  border-top: 1rem solid;;
 }
 
 .font-size-14{
@@ -96,7 +95,6 @@
   width: 100px; 
   overflow: hidden;
   text-overflow: ellipsis; 
-  border: 1px solid #000000;
 }
 
 .margin-right-20{
