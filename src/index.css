@@ -49,7 +49,7 @@ body {
 {
   --initialSize: 0.5vmin;
   --finalSize: 45vmin;
-  --particleSize: 0.2vmin;
+  --particleSize: 0.4vmin;
   --color1: yellow;
   --color2: khaki;
   --color3: white;
@@ -151,7 +151,7 @@ body {
   --color5: plum;
   --color6: lavender;  
   --finalSize: 40vmin;
-  left: 30%;
+  left: 20%;
   top: 60%;
   animation-delay: -0.25s;
 }
@@ -165,13 +165,54 @@ body {
 .firework:nth-child(3)::before,
 .firework:nth-child(3)::after {
   --color1: cyan;
-  --color2: lightcyan;
-  --color3: lightblue;
+  --color2: rgb(31, 124, 124);
+  --color3: rgb(214, 154, 25);
   --color4: PaleTurquoise;
   --color5: SkyBlue;
-  --color6: lavender;
+  --color6: rgb(63, 63, 156);
   --finalSize: 35vmin;
   left: 70%;
   top: 60%;
+  animation-delay: -0.4s;
+}
+
+
+.firework:nth-child(4) {
+  --x: -20vmin;
+}
+
+.firework:nth-child(4),
+.firework:nth-child(4)::before,
+.firework:nth-child(4)::after {
+  --color1: cyan;
+  --color2: rgb(31, 124, 124);
+  --color3: rgb(214, 154, 25);
+  --color4: PaleTurquoise;
+  --color5: SkyBlue;
+  --color6: rgb(63, 63, 156);
+  --finalSize: 35vmin;
+  left: 20%;
+  top: 50%;
+  animation-delay: -0.4s;
+}
+
+
+.firework:nth-child(5) {
+  --x: -50vmin;
+  --y: -50vmin;
+}
+
+.firework:nth-child(5),
+.firework:nth-child(5)::before,
+.firework:nth-child(5)::after {
+  --color1: cyan;
+  --color2: rgb(31, 124, 124);
+  --color3: rgb(214, 154, 25);
+  --color4: PaleTurquoise;
+  --color5: SkyBlue;
+  --color6: rgb(63, 63, 156);
+  --finalSize: 35vmin;
+  left: 70%;
+  top: 40%;
   animation-delay: -0.4s;
 }

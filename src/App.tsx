@@ -146,11 +146,14 @@ const App: React.FunctionComponent<FileUploadProps> = ({
     console.log(data[prizeNumber].option);
     setShow(true);
     setResult(data[prizeNumber].option);
+    setTimeout(() => {
+      setShow(false);
+    }, 2000);
   };
 
   return (
     <div className="App">
-      <ToastContainer
+      {/* <ToastContainer
         className="p-3"
         position={"middle-center"}
         style={{ zIndex: 1000000 }}
@@ -163,7 +166,7 @@ const App: React.FunctionComponent<FileUploadProps> = ({
             <div className="font-style">Woohoo, you're reciept {result}!</div>
           </Toast.Body>
         </Toast>
-      </ToastContainer>
+      </ToastContainer> */}
       <header className="App-header">
         <div className={"parent-container"}>
           <Wheel
@@ -259,6 +262,14 @@ const App: React.FunctionComponent<FileUploadProps> = ({
         className="firework"
       ></div>
       <div
+        style={{ display: show ? "block" : "none" }}
+        className="firework"
+      ></div>
+            <div
+        style={{ display: show ? "block" : "none" }}
+        className="firework"
+      ></div>
+            <div
         style={{ display: show ? "block" : "none" }}
         className="firework"
       ></div>
